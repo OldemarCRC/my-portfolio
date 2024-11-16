@@ -1,0 +1,35 @@
+.nav {
+    background-color: #333; /* Color de fondo oscuro */
+    position: fixed; /* Fija la navegación en la ventana */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ancho completo */
+    height: 80px; /* Altura deseada para la barra de navegación */
+    display: flex; /* Usa flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+  }
+  
+  .nav ul {
+    list-style-type: none; /* Elimina los puntos de viñeta */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
+  }
+  
+  .nav ul li {
+    margin: 0 15px; /* Espacio entre elementos */
+  }
+  
+  .nav ul li a {
+    color: #fff; /* Color de texto blanco */
+    font-size: 18px;
+    text-decoration: none; /* Elimina subrayado predeterminado */
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el mouse */
+    cursor: pointer;
+  }
+  
