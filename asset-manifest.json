@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6aabbb3a.css",
-    "main.js": "/my-portfolio/static/js/main.a9f32e9e.js",
+    "main.css": "/my-portfolio/static/css/main.36c2effe.css",
+    "main.js": "/my-portfolio/static/js/main.2d41720c.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/certificate-elements-of-ai.png": "/my-portfolio/static/media/certificate-elements-of-ai.9a12cf897b80925351d4.png",
-    "static/media/OLDEMAR_CHAVES_resume.pdf": "/my-portfolio/static/media/OLDEMAR_CHAVES_resume.f54718c9cf67d2e1142b.pdf",
-    "static/media/OLDEMAR_CHAVES_ansioluettelo.pdf": "/my-portfolio/static/media/OLDEMAR_CHAVES_ansioluettelo.b239648378aa3c0256ae.pdf",
+    "static/media/OLDEMAR_CHAVES_resume.pdf": "/my-portfolio/static/media/OLDEMAR_CHAVES_resume.a92abd43e6b8926a28fe.pdf",
+    "static/media/OLDEMAR_CHAVES_ansioluettelo.pdf": "/my-portfolio/static/media/OLDEMAR_CHAVES_ansioluettelo.ef4141ccfc506387e468.pdf",
     "static/media/metropolia_s_orange.png": "/my-portfolio/static/media/metropolia_s_orange.f31c744a300ad6af595a.png",
     "static/media/f93a68a8-ff62-4165-98e5-5758f92f7a64-w_960_h_960.jpg": "/my-portfolio/static/media/f93a68a8-ff62-4165-98e5-5758f92f7a64-w_960_h_960.16072498548620fecefb.jpg",
     "static/media/ISO_C++_Logo.svg.png": "/my-portfolio/static/media/ISO_C++_Logo.svg.dee46d9f0d197b0d6987.png",
     "static/media/profile_photo.jpg": "/my-portfolio/static/media/profile_photo.ec756d17c8a9013df491.jpg",
     "static/media/JavaScript-logo.png": "/my-portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/my-portfolio/index.html",
-    "main.6aabbb3a.css.map": "/my-portfolio/static/css/main.6aabbb3a.css.map",
-    "main.a9f32e9e.js.map": "/my-portfolio/static/js/main.a9f32e9e.js.map",
+    "main.36c2effe.css.map": "/my-portfolio/static/css/main.36c2effe.css.map",
+    "main.2d41720c.js.map": "/my-portfolio/static/js/main.2d41720c.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aabbb3a.css",
-    "static/js/main.a9f32e9e.js"
+    "static/css/main.36c2effe.css",
+    "static/js/main.2d41720c.js"
   ]
 }
