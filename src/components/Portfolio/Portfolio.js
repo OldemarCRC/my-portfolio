@@ -2,7 +2,7 @@ import './portfolio.css';
 
 const Portfolio = () => {
   return (
-    <article id="portfolio" className="portfolio-wrapper">
+    <article id="portfolio" className="portfolio-mf">
       <div className="container">
         <header>
           <h2>

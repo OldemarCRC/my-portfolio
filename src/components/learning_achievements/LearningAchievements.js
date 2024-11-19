@@ -21,7 +21,7 @@ const LearningAchievements = () => {
     }, []);
   
     return (
-      <article id="learning-achievements" className="wrapper style6">
+      <article id="learning-achievements" className="learning-mf">
         <div className="container">
           <header>
             <h2>Learning Achievements</h2>

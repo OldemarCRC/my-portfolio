@@ -2,7 +2,7 @@ import React from "react";
 import "./work.css";
 
 const Work = () => (
-  <article id="work" className="wrapper style2">
+  <article id="work" className="work-mf">
     <div class="container">
       <header>
         <h2>

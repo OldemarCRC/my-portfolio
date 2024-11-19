@@ -1,5 +1,5 @@
-.portfolio-wrapper {
-  padding: 4em 0;
+.portfolio-mf {
+  padding: 100px 20px;
   background-color: #f9f9f9;
 }
 
@@ -57,7 +57,7 @@
 
 .portfolio-content p {
   font-size: 1em;
-  color: #666666;
+  color: #666;
   line-height: 1.6;
 }
 

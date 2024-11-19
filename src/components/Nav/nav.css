@@ -61,4 +61,28 @@
   .nav+.home-mf {
     margin-top: 80px;
   }
+
+  .nav+.about-mf {
+    margin-top: 80px;
+  }
+
+  .nav+.work-mf {
+    margin-top: 80px;
+  }
+
+  .nav+.portfolio-mf {
+    margin-top: 80px;
+  }
+
+  .nav+.learning-mf {
+    margin-top: 80px;
+  }
+
+  .nav+.skills-mf {
+    margin-top: 80px;
+  }
+  .nav+.contact-mf {
+    margin-top: 80px;
+  }
+
 }
