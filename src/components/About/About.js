@@ -7,24 +7,23 @@ import ansioluetteloImg from '../../assets/ansioluettelo_image.png';
 import resumeImg from '../../assets/resume_image.jpg';
 
 function About() {
-  const born = new Date("04/11/1970");  // Fecha de nacimiento
-  const today = new Date();  // Fecha actual
+  const born = new Date("04/11/1970");
+  const today = new Date();
 
-  let age = today.getFullYear() - born.getFullYear();  // Diferencia de años
-  const month = today.getMonth() - born.getMonth();  // Diferencia de meses
+  let age = today.getFullYear() - born.getFullYear();
+  const month = today.getMonth() - born.getMonth();
 
   // Si el mes actual es anterior al mes de nacimiento, resta 1 al cálculo de edad
   if (month < 0 || (month === 0 && today.getDate() < born.getDate())) {
     age--;
   }
   return (
-    <section id="about" className="about-mf sect-pt4 route">
+    <section id="about" className="about-mf">
       <div className="container">
         <div className="about-content">
           <div className="about-img">
             <img
               src={passportPhoto}
-              className="img-fluid rounded b-shadow-a"
               alt="Passport"
             />
           </div>
@@ -35,7 +34,6 @@ function About() {
               <p className="about-info-item"><span className="title-s">Profile:</span> Full Stack Developer</p>
               <p className="about-info-item"><span className="title-s">Email:</span> oldemar.chaves@gmail.com</p>
             </div>
-            {/* Enlace para descargar el CV */}
             <div className="title-and-links">
               <h3 className="title">Download my CV in English or Finnish:</h3>
               <div className="cv-links">
@@ -50,8 +48,8 @@ function About() {
           </div>
         </div>
 
-        <div className="about-me pt-4">
-          <div className="title-box-2">
+        <div className="about-me">
+          <div>
             <h5 className="title-left">About me</h5>
           </div>
           <p className="lead">
@@ -77,14 +75,14 @@ function About() {
             only addresses the technical aspects but also takes into account the real-world
             challenges businesses face in logistics and supply chain management.
           </p>
-          <p>
+          <p className="lead">
             Outside of my professional interests, I am an avid football player and swimmer,
             enjoying both sports at an amateur level. I also take pleasure in running,
             having completed several half-marathons, including one in Helsinki.
             In addition, I relish the tranquility of Finnish lakes and the rejuvenating
             experience of a sauna.
           </p>
-          <p>
+          <p className="lead">
             This blend of international logistics experience and a fresh foray into IT,
             combined with my multicultural life journey, shapes my unique perspective and
             approach to problem-solving in the tech world. I am excited about the opportunities

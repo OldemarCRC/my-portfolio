@@ -24,29 +24,29 @@ const tools = [
 ];
 
 const SkillsTools = () => (
-    <section id="skills-tools" className="skills-mf sect-pt4 route">
+    <section id="skills-tools" className="skills-mf">
         <div className="container">
-            <div className="row">
-                <div className="col-sm-12">
-                    <div className="title-box text-center">
+            <div className="skills-row">
+                <div>
+                    <div className="title-box">
                         <h3 className="title-a">Skills</h3>
                     </div>
                     <div className="line-mf"></div>
                     {skills.map((skill, index) => (
-                        <div key={index} className="col-md-3">
+                        <div key={index} >
                             <div className="skill-box">
                                 <h2 className="s-title">{skill.name}</h2>
                             </div>
                         </div>
                     ))}
                 </div>
-                <div className="col-sm-12">
-                    <div className="title-box text-center">
+                <div>
+                    <div className="title-box">
                         <h3 className="title-a">Tools</h3>
                     </div>
                     <div className="line-mf"></div>
                     {tools.map((tool, index) => (
-                        <div key={index} className="col-md-3">
+                        <div key={index}>
                             <div className="skill-box">
                                 <h2 className="s-title">{tool.name}</h2>
                             </div>

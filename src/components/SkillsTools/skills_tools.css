@@ -1,7 +1,6 @@
-/* Estilos generales de la sección Skills & Tools */
 .skills-mf {
     padding: 60px 20px;
-    background-color: #f5f5f5; /* Color de fondo suave */
+    background-color: #f5f5f5;
 }
 
 .title-box {
@@ -31,23 +30,29 @@
     height: 4px;
     background-color: #1e1e1e;
     margin: 15px auto;
-    border-radius: 3px; /* Bordes redondeados para un toque suave */
+    border-radius: 3px;
 }
 
-/* Contenedor de las habilidades */
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 0 -10px;
+  }
+
 .skill-box {
     padding: 10px;
     background-color: #ffffff;
     border: 2px solid #e0e0e0;
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar las cajas */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 15px 0; /* Separación entre habilidades */
+    margin: 15px 0;
 }
 
 .skill-box:hover {
-    transform: translateY(-10px); /* Efecto de desplazamiento al hacer hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa al hacer hover */
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .s-title {
@@ -59,10 +64,9 @@
 }
 
 .s-title:hover {
-    color: #1e90ff; /* Cambio de color en hover */
+    color: #1e90ff;
 }
 
-/* Ajustes responsivos para dispositivos móviles */
 @media (max-width: 768px) {
     .title-a {
         font-size: 2rem;

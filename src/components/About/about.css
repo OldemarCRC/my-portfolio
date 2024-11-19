@@ -5,16 +5,16 @@
 
 .about-content {
   display: flex;
-  align-items: flex-start; /* Alinea los elementos de about-content al inicio */
+  align-items: flex-start;
 }
 
 .about-img {
-  flex: 0 0 auto; /* Establece el tamaño fijo para la imagen */
-  margin-right: 20px; /* Espacio entre la imagen y la información */
+  flex: 0 0 auto;
+  margin-right: 20px;
 }
 
 .about-info {
-  flex: 1; /* El contenido de información ocupa el espacio restante */
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -39,7 +39,7 @@
 }
 
 .about-info-item {
-  margin: 10px; /* Margen en los párrafos dentro de about-info */
+  margin: 10px;
 }
 
 .title-s {
@@ -56,7 +56,7 @@
 .lead {
   font-size: 1rem;
   color: #666;
-  text-align: justify; /* Justifica el texto dentro de los párrafos con clase lead */
+  text-align: justify;
 }
 
 

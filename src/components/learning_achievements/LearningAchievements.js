@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './learning_achievements.css'; // Asegúrate de crear un archivo CSS para los estilos
+import './learning_achievements.css';
 import js_logo from "../../assets/JavaScript-logo.png";
 import cplus_logo from "../../assets/ISO_C++_Logo.svg.png";
 import ai_logo from "../../assets/certificate-elements-of-ai.png";
@@ -26,7 +26,7 @@ const LearningAchievements = () => {
           <header>
             <h2>Learning Achievements</h2>
           </header>
-          <div className="row aln-center">
+          <div className="achievements-row">
             {/* Badge 1 */}
             <div className="badge-1">
               <div

@@ -20,7 +20,6 @@ function App() {
             <LearningAchievements />
             <SkillsTools />
             <Contact />
-            {/* Other components will be added here */}
         </div>
     );
 }

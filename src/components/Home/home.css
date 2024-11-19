@@ -1,11 +1,9 @@
-/* home.css */
-
 .home-mf {
     position: relative;
     background-image: url('https://images.pexels.com/photos/5926398/pexels-photo-5926398.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Ajusta la altura según sea necesario */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +16,14 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor de opacidad según lo desees */
+    background-color: rgba(0, 0, 0, 0.5);
   }
   
   .home-mf .content {
     position: relative;
     z-index: 1;
     color: #fff;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto para mejor legibilidad */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   .home-mf h1 {

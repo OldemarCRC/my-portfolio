@@ -18,7 +18,7 @@ function Contact() {
   }, []);
 
   return (
-    <section className="contact-mf">
+    <section id="contact" className="contact-mf">
       <div className="container">
         <div className="title-box">
           <h3 className="contact-title-a">Contact</h3>
