@@ -16,7 +16,7 @@ const Portfolio = () => {
             <a href="https://oldemarcrc.github.io/Sea-container-Check-Digit/" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-image">
                 <img
-                  src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg"
+                  src="https://images.pexels.com/photos/5213155/pexels-photo-5213155.jpeg"
                   alt="Check Digit"
                 />
               </div>
@@ -66,18 +66,18 @@ const Portfolio = () => {
           </div>
           
           <div className="portfolio-item">
-            <a href="http://localhost:3001/" target="_blank" rel="noopener noreferrer">
+            <a href="https://kontti-client.onrender.com/" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-image">
                 <img
-                  src="https://images.pexels.com/photos/39396/hourglass-time-hours-sand-39396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg"
                   alt="Event Countdown"
                 />
               </div>
               <div className="portfolio-content">
-                <h3>Event Countdown</h3>
+                <h3>Container Terminal Web App</h3>
                 <p>
-                  A simple React JS application that calculates the remaining
-                  time until a user-selected event occurs.
+                Enterprise-level web application for managing container movements
+                and inventories at container terminals and port facilities.
                 </p>
               </div>
             </a>

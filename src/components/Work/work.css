@@ -1,8 +1,11 @@
 .work-mf {
-
   margin: 0 auto;
   padding: 100px 20px;
   background-color: #f9f9f9;
+}
+
+.work-mf header{
+text-align: center;
 }
 
 .row {
@@ -23,8 +26,8 @@
   background: #f0f0f0;
   padding: 20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
-
 @media (max-width: 1024px) {
   .col-4 {
     width: calc(50% - 20px);
