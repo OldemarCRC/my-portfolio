@@ -53,20 +53,24 @@ function About() {
             <h5 className="title-left">About me</h5>
           </div>
           <p className="lead">
+          <strong>Meet Oldemar</strong><br/>
             Hello! My name is José Oldemar Chaves Urbina, but most people know me as Oldemar.
             I was born {age} years ago in the city of Puerto Limón, Caribbean coast of Costa Rica,
             and now I reside in the modern city of Helsinki, Finland.
           </p>
           <p className="lead">
+          <strong>A Journey in Logistics</strong><br/>
             My professional journey began after obtaining a technical diploma in accounting
             from a vocational college in Costa Rica, complemented by my upper secondary education equivalent to the Finnish "Lukio". I spent over two decades in logistics, focusing on imports and exports. My career ranged from working at the Costa Rican Customs Office to various roles in customs agencies, shipping agencies, and as a dispatcher at maritime container terminals, including Costa Rica's most significant port terminal in Moín.
           </p>
           <p className="lead">
+          <strong>Diving into Software Development</strong><br/>
             I recently completed an ICT and Software Development
             (Tieto- ja viestintätekniikan perustutkinto) at Vantaan Ammattiopisto Varia
             in Finland, which has provided me with strong foundations in software development and information technology.
           </p>
           <p className="lead">
+          <strong>Bridging Logistics and Technology</strong><br/>
             With my background in logistics, I bring a deep understanding of supply chains,
             inventory management, and the complexities of global trade.
             By combining this with my programming skills, I am now able to build solutions
@@ -76,6 +80,7 @@ function About() {
             challenges businesses face in logistics and supply chain management.
           </p>
           <p className="lead">
+          <strong>Beyond the Professional</strong><br/>
             Outside of my professional interests, I am an avid football player and swimmer,
             enjoying both sports at an amateur level. I also take pleasure in running,
             having completed several half-marathons, including one in Helsinki.
@@ -83,6 +88,7 @@ function About() {
             experience of a sauna.
           </p>
           <p className="lead">
+          <strong>A Unique Perspective</strong><br/>
             This blend of international logistics experience and a fresh foray into IT,
             combined with my multicultural life journey, shapes my unique perspective and
             approach to problem-solving in the tech world. I am excited about the opportunities
