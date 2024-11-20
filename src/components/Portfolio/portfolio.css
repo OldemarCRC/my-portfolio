@@ -71,6 +71,9 @@
   .portfolio-item {
     width: calc(50% - 2em);
   }
+  .portfolio-mf {
+    padding: 40px 20px;
+  }
 }
 
 @media (max-width: 480px) {

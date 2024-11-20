@@ -39,4 +39,8 @@ text-align: center;
     width: 100%;
     margin: 0;
   }
+
+  .work-mf {
+    padding: 40px 20px;
+  }
 }
