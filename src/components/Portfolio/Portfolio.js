@@ -1,6 +1,46 @@
+import React, { useEffect, useMemo } from 'react';
 import './portfolio.css';
+import container_number from "../../assets/portfolio/container_number_picture.jpeg";
+import containers_terminal_image from "../../assets/portfolio/containers_terminal_image.jpeg";
+import notebook_image from "../../assets/portfolio/notebook_image.webp";
+import payroll_image from "../../assets/portfolio/payroll_image.jpeg";
 
 const Portfolio = () => {
+
+  const imagesToPreload = useMemo(() => [
+    container_number,
+    containers_terminal_image,
+    notebook_image,
+    payroll_image
+  ], []);
+
+  useEffect(() => {
+    const preloadImages = () => {
+      imagesToPreload.forEach(imageSrc => {
+        const img = new Image();
+        img.src = imageSrc;
+        
+        img.onload = () => {
+          console.log(`Imagen precargada: ${imageSrc}`);
+        };
+        
+        img.onerror = () => {
+          console.error(`Error al precargar: ${imageSrc}`);
+        };
+      });
+    };
+
+    preloadImages();
+
+    return () => {
+      imagesToPreload.forEach(imageSrc => {
+        const img = new Image();
+        img.src = '';
+      });
+    };
+  }, [imagesToPreload]);
+
+
   return (
     <article id="portfolio" className="portfolio-mf">
       <div className="container">
@@ -16,8 +56,9 @@ const Portfolio = () => {
             <a href="https://oldemarcrc.github.io/Sea-container-Check-Digit/" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-image">
                 <img
-                  src="https://images.pexels.com/photos/5213155/pexels-photo-5213155.jpeg"
+                  src={container_number}
                   alt="Check Digit"
+                  loading="lazy"
                 />
               </div>
               <div className="portfolio-content">
@@ -35,8 +76,9 @@ const Portfolio = () => {
             >
               <div className="portfolio-image">
                 <img
-                  src="https://images.pexels.com/photos/5849582/pexels-photo-5849582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src={payroll_image}
                   alt="payroll"
+                  loading="lazy"
                 />
               </div>
               <div className="portfolio-content">
@@ -54,8 +96,9 @@ const Portfolio = () => {
             >
               <div className="portfolio-image">
                 <img
-                  src="https://images.pexels.com/photos/544115/pexels-photo-544115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src={notebook_image}
                   alt="Notebook manager"
+                  loading="lazy"
                 />
               </div>
               <div className="portfolio-content">
@@ -69,8 +112,9 @@ const Portfolio = () => {
             <a href="https://kontti-client.onrender.com/" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-image">
                 <img
-                  src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg"
-                  alt="Event Countdown"
+                  src={containers_terminal_image}
+                  alt="Container Terminal"
+                  loading="lazy"
                 />
               </div>
               <div className="portfolio-content">

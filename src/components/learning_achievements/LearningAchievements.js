@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import './learning_achievements.css';
-import js_logo from "../../assets/JavaScript-logo.png";
-import cplus_logo from "../../assets/ISO_C++_Logo.svg.png";
-import ai_logo from "../../assets/certificate-elements-of-ai.png";
-import sql_logo from "../../assets/sql_logo1.png";
-import helsinki_university_logo from "../../assets/f93a68a8-ff62-4165-98e5-5758f92f7a64-w_960_h_960.jpg";
-import metropolia_logo from "../../assets/metropolia_s_orange.png"
+import js_logo from "../../assets/learning/JavaScript-logo.png";
+import cplus_logo from "../../assets/learning/ISO_C++_Logo.svg.png";
+import ai_logo from "../../assets/learning/certificate-elements-of-ai.png";
+import sql_logo from "../../assets/learning/sql_logo1.png";
+import helsinki_university_logo from "../../assets/learning/university_of_helsinki_logo.jpg";
+import metropolia_logo from "../../assets/learning/metropolia_s_orange.png"
 
 const LearningAchievements = () => {
     useEffect(() => {
