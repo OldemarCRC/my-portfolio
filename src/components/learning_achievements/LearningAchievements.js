@@ -7,6 +7,9 @@ import sql_logo from "../../assets/learning/sql_logo1.png";
 import helsinki_university_logo from "../../assets/learning/university_of_helsinki_logo.jpg";
 import metropolia_logo from "../../assets/learning/metropolia_s_orange.png"
 
+const metropolia_studies_link = "https://studyinfo.fi/koski/opinnot/36f8158ebe9942a0bdc389d0c6db3657";
+const helsinki_studies_link = "https://studyinfo.fi/koski/opinnot/8439aad851a644589179e495dd665b5d";
+
 const LearningAchievements = () => {
     useEffect(() => {
       const script = document.createElement('script');
@@ -51,7 +54,7 @@ const LearningAchievements = () => {
             <div className="badge-3">
               <a
                 className="own-badge"
-                href="https://studyinfo.fi/koski/opinnot/2444f57a0e30445e98d09270b067fa3b"
+                href={metropolia_studies_link}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,7 +80,7 @@ const LearningAchievements = () => {
           <div className="badge-3">
             <a
               className="own-badge"
-              href="https://studyinfo.fi/koski/opinnot/2444f57a0e30445e98d09270b067fa3b"
+              href={metropolia_studies_link}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -103,7 +106,7 @@ const LearningAchievements = () => {
           <div className="badge-3">
             <a
               className="own-badge"
-              href="https://studyinfo.fi/koski/opinnot/2444f57a0e30445e98d09270b067fa3b"
+              href={metropolia_studies_link}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -129,7 +132,7 @@ const LearningAchievements = () => {
           <div className="badge-3">
             <a
               className="own-badge"
-              href="https://studyinfo.fi/koski/opinnot/2444f57a0e30445e98d09270b067fa3b"
+              href={helsinki_studies_link}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -152,7 +155,7 @@ const LearningAchievements = () => {
            <div className="badge-3">
             <a
               className="own-badge"
-              href="https://studyinfo.fi/koski/opinnot/2444f57a0e30445e98d09270b067fa3b"
+              href={metropolia_studies_link}
               target="_blank"
               rel="noopener noreferrer"
             >
