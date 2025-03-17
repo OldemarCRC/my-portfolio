@@ -69,6 +69,26 @@ const Portfolio = () => {
           </div>
 
           <div className="portfolio-item">
+            <a href="https://kontti-client.onrender.com/" target="_blank" rel="noopener noreferrer">
+              <div className="portfolio-image">
+                <img
+                  src={containers_terminal_image}
+                  alt="Container Terminal"
+                  loading="lazy"
+                />
+              </div>
+              <div className="portfolio-content">
+                <h3>Container Terminal Web App</h3>
+                <p>
+                Log in as 'demo_user' to explore the app's features.
+                Enterprise-level web application for managing container movements
+                and inventories at container terminals and port facilities.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div className="portfolio-item">
             <a
               href="https://github.com/OldemarCRC/python-file-handling-payroll"
               target="_blank"
@@ -108,24 +128,8 @@ const Portfolio = () => {
             </a>
           </div>
           
-          <div className="portfolio-item">
-            <a href="https://kontti-client.onrender.com/" target="_blank" rel="noopener noreferrer">
-              <div className="portfolio-image">
-                <img
-                  src={containers_terminal_image}
-                  alt="Container Terminal"
-                  loading="lazy"
-                />
-              </div>
-              <div className="portfolio-content">
-                <h3>Container Terminal Web App</h3>
-                <p>
-                Enterprise-level web application for managing container movements
-                and inventories at container terminals and port facilities.
-                </p>
-              </div>
-            </a>
-          </div>
+          
+
         </div>
         
       </div>
