@@ -1,7 +1,7 @@
 # my-portfolio
 Welcome to My Portfolio
 
-Hello! My name is José Oldemar Chaves Urbina, but most people know me as Oldemar. I was born 54 years ago in the city of Puerto Limón, Caribbean coast of Costa Rica, and now I reside in the modern city of Helsinki, Finland.
+Hello! My name is José Oldemar Chaves Urbina, but most people know me as Oldemar. I was born in the city of Puerto Limón, Caribbean coast of Costa Rica, and now I reside in the modern city of Helsinki, Finland.
 
 My professional journey began after obtaining a technical diploma in accounting from a vocational college in Costa Rica, complemented by my upper secondary education equivalent to the Finnish "Lukio". I spent over two decades in logistics, focusing on imports and exports. My career ranged from working at the Costa Rican Customs Office to various roles in customs agencies, shipping agencies, and as a dispatcher at maritime container terminals, including Costa Rica's most significant port terminal in Moín.
 
