@@ -128,29 +128,6 @@ const LearningAchievements = () => {
             </a>
           </div>
 
-          {/* Badge 6 - AI */}
-          <div className="badge-3">
-            <a
-              className="own-badge"
-              href={helsinki_studies_link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-                <img
-                className="metropolia"
-                src={helsinki_university_logo}
-                alt="metropolia logo"
-              />
-              <div className="middle-badge"></div>
-              <img
-                className="ai"
-                src={ai_logo}
-                alt="AI certificate"
-              />
-              <p className="study-info">Introduction to AI</p>
-              <p className="study-info">University of Helsinki</p>
-            </a>
-          </div>
            {/* Badge 7 - SQL */}
            <div className="badge-3">
             <a
@@ -174,6 +151,55 @@ const LearningAchievements = () => {
               <p className="study-info">Metropolia University of Applied Sciences</p>
             </a>
           </div>
+
+          {/* Badge 6 - AI */}
+          <div className="badge-3">
+            <a
+              className="own-badge"
+              href={helsinki_studies_link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+                <img
+                className="metropolia"
+                src={helsinki_university_logo}
+                alt="metropolia logo"
+              />
+              <div className="middle-badge"></div>
+              <img
+                className="ai"
+                src={ai_logo}
+                alt="AI certificate"
+              />
+              <p className="study-info">Introduction to AI</p>
+              <p className="study-info">University of Helsinki</p>
+            </a>
+          </div>
+
+
+          <div className="badge-3">
+            <a
+              className="own-badge"
+              href= "https://certificates.mooc.fi/validate/3felwddmdie"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+                <img
+                className="metropolia"
+                src={helsinki_university_logo}
+                alt="metropolia logo"
+              />
+              <div className="middle-badge"></div>
+              <img
+                  className="language"
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                  alt="python logo"
+                />
+              <p className="study-info">Introduction to Programming</p>
+              <p className="study-info">University of Helsinki</p>
+            </a>
+          </div>
+
           </div>
         </div>
       </article>
