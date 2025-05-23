@@ -176,18 +176,17 @@ const LearningAchievements = () => {
             </a>
           </div>
 
-
           <div className="badge-3">
             <a
               className="own-badge"
-              href= "https://certificates.mooc.fi/validate/3felwddmdie"
+              href= "https://opintopolku.fi/koski/opinnot/8c219cbf0cda4ede9d72c546ed7229c3"
               target="_blank"
               rel="noopener noreferrer"
             >
                 <img
                 className="metropolia"
                 src={helsinki_university_logo}
-                alt="metropolia logo"
+                alt="university of helsinki logo"
               />
               <div className="middle-badge"></div>
               <img
