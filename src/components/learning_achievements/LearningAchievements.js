@@ -6,6 +6,7 @@ import ai_logo from "../../assets/learning/certificate-elements-of-ai.png";
 import sql_logo from "../../assets/learning/sql_logo1.png";
 import helsinki_university_logo from "../../assets/learning/university_of_helsinki_logo.jpg";
 import metropolia_logo from "../../assets/learning/metropolia_s_orange.png"
+import docker_logo from "../../assets/learning/docker.png"
 
 const metropolia_studies_link = "https://studyinfo.fi/koski/opinnot/36f8158ebe9942a0bdc389d0c6db3657";
 const helsinki_studies_link = "https://studyinfo.fi/koski/opinnot/8439aad851a644589179e495dd665b5d";
@@ -195,6 +196,29 @@ const LearningAchievements = () => {
                   alt="python logo"
                 />
               <p className="study-info">Introduction to Programming</p>
+              <p className="study-info">University of Helsinki</p>
+            </a>
+          </div>
+
+          <div className="badge-3">
+            <a
+              className="own-badge"
+              href= "https://opintopolku.fi/koski/opinnot/91a83588ba3246208238f1f03bd8e472"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+                <img
+                className="metropolia"
+                src={helsinki_university_logo}
+                alt="university of helsinki logo"
+              />
+              <div className="middle-badge"></div>
+               <img
+                className="language"
+                src={docker_logo}
+                alt="docker logo"
+              />
+              <p className="study-info">DevOps with Docker</p>
               <p className="study-info">University of Helsinki</p>
             </a>
           </div>

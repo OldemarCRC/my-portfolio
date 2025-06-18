@@ -11,7 +11,8 @@ const skills = [
     { name: 'CSS' },
     { name: 'HTML' },
     { name: 'Python' },
-    { name: 'Agile/Scrum' }
+    { name: 'Agile/Scrum' },
+    { name: 'Docker & DevOps (basic)' }
 ];
 
 const tools = [
@@ -21,6 +22,7 @@ const tools = [
     { name: 'VS Code' },
     { name: 'MongoDB Atlas' },
     { name: 'Render' },
+    { name: 'Docker (basic use)' },
 ];
 
 const SkillsTools = () => (
