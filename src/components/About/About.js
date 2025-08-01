@@ -73,9 +73,9 @@ function About() {
           </div>
           <p className="lead">
             <strong>Meet Oldemar</strong><br />
-            Hello! My name is José Oldemar Chaves Urbina, but most people know me as Oldemar.
+            Hello! My name is José Oldemar Chaves Urbina.
             I was born {age} years ago in the city of Puerto Limón, Caribbean coast of Costa Rica,
-            and now I reside in the modern city of Helsinki, Finland.
+            and now I reside in Helsinki, Finland.
           </p>
           <p className="lead">
             <strong>A Journey in Logistics</strong><br />
@@ -85,7 +85,7 @@ function About() {
           <p className="lead">
             <strong>Diving into Software Development</strong><br />
             I recently completed an ICT and Software Development
-            (Tieto- ja viestintätekniikan perustutkinto) at Vantaan Ammattiopisto Varia
+            <span lang="fi">(Tieto- ja viestintätekniikan perustutkinto)</span> at Vantaan Ammattiopisto Varia
             in Finland, which has provided me with strong foundations in software development and information technology.
           </p>
           <p className="lead">
