@@ -56,10 +56,10 @@ function About() {
             <div className="title-and-links">
               <h3 className="title">Download my CV in English or Finnish:</h3>
               <div className="cv-links">
-                <a href={cvPdf} download="OLDEMAR_CHAVES_resume.pdf" className="cv-download-link" rel="noopener noreferrer">
+                <a href={cvPdf} download="Jose_Chaves_CV_eng.pdf" className="cv-download-link" rel="noopener noreferrer">
                   <img src={resumeImg} alt="Download CV" className="cv-download-icon" />
                 </a>
-                <a href={anPdf} download="OLDEMAR_CHAVES_ansioluettelo.pdf" className="cv-download-link" rel="noopener noreferrer">
+                <a href={anPdf} download="Jose_Chaves_CV.pdf" className="cv-download-link" rel="noopener noreferrer">
                   <img src={ansioluetteloImg} alt="Download CV" className="cv-download-icon" />
                 </a>
               </div>
