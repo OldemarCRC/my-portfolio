@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import "./about.css";
 import passportPhoto from "../../assets/profile_photo.jpg";
-import cvPdf from '../../assets/cv/OLDEMAR_CHAVES_resume.pdf';
-import anPdf from '../../assets/cv/OLDEMAR_CHAVES_ansioluettelo.pdf';
+import cvPdf from '../../assets/cv/Jose_Chaves_CV_eng.pdf';
+import anPdf from '../../assets/cv/Jose_Chaves_CV.pdf';
 import ansioluetteloImg from '../../assets/cv/ansioluettelo_image.png';
 import resumeImg from '../../assets/cv/resume_image.jpg';
 
