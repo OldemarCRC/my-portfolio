@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import "./contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faXTwitter,
-  faFacebookF,
   faLinkedinIn,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
@@ -32,24 +30,6 @@ function Contact() {
         <div className="social-icons">
           <h5>Connect with Me</h5>
           <ul className="social">
-            <li>
-              <a
-                href="https://twitter.com/OldemarCRC"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faXTwitter} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/oldemar.chaves"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faFacebookF} />
-              </a>
-            </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/oldemar-chaves/"

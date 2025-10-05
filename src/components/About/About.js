@@ -3,10 +3,18 @@ import "./about.css";
 import passportPhoto from "../../assets/profile_photo.jpg";
 import cvPdf from '../../assets/cv/Jose_Chaves_CV_eng.pdf';
 import anPdf from '../../assets/cv/Jose_Chaves_CV.pdf';
-import ansioluetteloImg from '../../assets/cv/ansioluettelo_image.png';
-import resumeImg from '../../assets/cv/resume_image.jpg';
 
 function About() {
+
+  useEffect(() => {
+    const user = 'oldemar.chaves';
+    const domain = 'gmail.com';
+    const emailLink = document.getElementById('about-email-link');
+    if (emailLink) {
+      emailLink.href = `mailto:${user}@${domain}`;
+      emailLink.textContent = `${user}@${domain}`;
+    }
+  }, []);
 
   useEffect(() => {
     const img = new Image();
@@ -34,6 +42,7 @@ function About() {
   if (month < 0 || (month === 0 && today.getDate() < born.getDate())) {
     age--;
   }
+
   return (
     <section id="about" className="about-mf">
       <div className="container">
@@ -41,7 +50,7 @@ function About() {
           <div className="about-img">
             <img
               src={passportPhoto}
-              alt="Passport"
+              alt="José Oldemar Chaves"
               loading="eager"
               fetchpriority="high"
             />
@@ -49,18 +58,47 @@ function About() {
 
           <div className="about-info">
             <div className="info-container">
-              <p className="about-info-item"><span className="title-s">Full name:</span> José Oldemar Chaves Urbina</p>
-              <p className="about-info-item"><span className="title-s">Profile:</span> Full Stack Developer</p>
-              <p className="about-info-item"><span className="title-s">Email:</span> oldemar.chaves@gmail.com</p>
+              <p className="about-info-item">
+                <span className="title-s">Full name:</span> José Oldemar Chaves Urbina</p>
+              <p className="about-info-item">
+                <span className="title-s">Profile:</span> Junior Full Stack Developer | Logistics Background</p>
+              <p className="about-info-item">
+                <span className="title-s">Email: </span>
+                <a id="about-email-link" href="mailto:[email protected]" className="email-protected">
+                  [email protected]
+                </a>
+              </p>
+              <p className="about-info-item">
+                <span className="title-s">Location:</span> Helsinki, Finland
+              </p>
+              <p className="about-info-item">
+                <span className="title-s">LinkedIn:</span>
+                <a
+                  href="https://www.linkedin.com/in/oldemar-chaves/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginLeft: '8px', color: '#0066cc' }}
+                >
+                  /in/oldemar-chaves
+                </a>
+              </p>
             </div>
             <div className="title-and-links">
-              <h3 className="title">Download my CV in English or Finnish:</h3>
-              <div className="cv-links">
-                <a href={cvPdf} download="Jose_Chaves_CV_eng.pdf" className="cv-download-link" rel="noopener noreferrer">
-                  <img src={resumeImg} alt="Download CV" className="cv-download-icon" />
+              <h3 className="title">Download my Resume:</h3>
+              <div className="cv-links-modern">
+                <a
+                  href={cvPdf}
+                  download="Jose_Oldemar_Chaves_CV_English.pdf"
+                  className="cv-btn cv-btn-primary"
+                >
+                  📄 Download CV (English)
                 </a>
-                <a href={anPdf} download="Jose_Chaves_CV.pdf" className="cv-download-link" rel="noopener noreferrer">
-                  <img src={ansioluetteloImg} alt="Download CV" className="cv-download-icon" />
+                <a
+                  href={anPdf}
+                  download="Jose_Oldemar_Chaves_Ansioluettelo.pdf"
+                  className="cv-btn cv-btn-secondary"
+                >
+                  📄 Lataa ansioluettelo (Suomi)
                 </a>
               </div>
             </div>
