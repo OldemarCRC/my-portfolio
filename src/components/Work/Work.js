@@ -6,54 +6,57 @@ const Work = () => (
     <div class="container">
       <header>
         <h2>
-          Here's an overview of my professional capabilities and contributions.
+          Here's an overview of my learning journey and practical projects.
         </h2>
         <p>
-          Exploring the fusion of technology and creativity to solve complex
-          problems.
+          Combining logistics expertise with emerging software
+          development skills to create practical solutions.
         </p>
       </header>
       <div class="row">
         <div class="col-4">
           <section class="box style1">
             <span class="icon featured fa-comments"></span>
-            <h3>Dynamic Web Development</h3>
+            <h3>Full Stack Web Development</h3>
             <p>
-              As a Full Stack Developer, I have developed two MERN stack projects focused on
-              logistics: one for a container terminal and another for a fiscal warehouse. 
-              While currently unemployed, I am developing a third project for a cleaning
-              service company that manages appointments through a web application.
-              This hands-on experience has kept me updated in both front-end and back-end
-              technologies. Proficient in JavaScript, React.js, Node.js, and Express.js,
-              I build responsive, dynamic web applications that deliver seamless user experiences.
+              As a recent ICT graduate, I have built three MERN stack applications
+              to practice and consolidate my learning: a container terminal management
+              system, a fiscal warehouse application, and a cleaning service appointment
+              platform. These projects combine my logistics background with programming
+              fundamentals learned at Varia, leveraging modern development tools,
+              AI assistants, online resources, and GitHub repositories. All applications
+              are deployed on Render, demonstrating hands-on experience with React.js,
+              Node.js, Express.js, and MongoDB.
             </p>
           </section>
         </div>
         <div class="col-4">
           <section class="box style1">
             <span class="icon solid featured fa-camera-retro"></span>
-            <h3>Database Management & Design</h3>
+            <h3>Database Fundamentals</h3>
             <p>
-              I have strong skills in database technologies including MongoDB and MySQL,
-              acquired through real-world projects and formal education. I excel in designing,
-              implementing, and managing databases that support the back-end of web applications,
-              ensuring data integrity and security. Additionally, I completed the "SQL and
-              Relational Databases" course at Metropolia University of Applied Sciences in
-              open university format.
+              Through my MERN projects, I have gained practical experience with MongoDB,
+              implementing document-based databases for real-world logistics scenarios.
+              I have also studied relational databases through the "SQL and Relational
+              Databases" course at Metropolia University of Applied Sciences, building
+              a foundation in database design principles, data integrity, and basic query
+              optimization. While I haven't yet built production SQL applications, I understand
+              the fundamentals of both NoSQL and SQL paradigms.
             </p>
           </section>
         </div>
         <div class="col-4">
           <section class="box style1">
             <span class="icon featured fa-thumbs-up"></span>
-            <h3>Software Development & Tools</h3>
+            <h3>Programming & Development Tools</h3>
             <p>
-              I have a solid understanding of several programming languages and development tools,
-              including Python, C++, JavaScript, Visual Studio Code, Git, and GitHub.
-              My experience extends beyond the basics in these technologies, gained through
-              both university courses and practical application in projects. Additionally,
-              my background in cybersecurity principles from the Cisco Academy ensures that
-              I always consider security in my development work.
+              I have studied multiple programming languages including Python (through Metropolia
+              and University of Helsinki courses, currently completing the advanced Python course),
+              JavaScript, C++, and C#. My strongest foundation is in Python, demonstrated through
+              a combinatorics application using Docker deployed on Render. I work daily with
+              Visual Studio Code, Git, and GitHub for version control and collaboration.
+              During my studies at Varia, I used Trello for team project management.
+              My Cisco Academy cybersecurity training also informs my approach to secure coding practices.
             </p>
           </section>
         </div>
