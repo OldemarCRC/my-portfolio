@@ -9,7 +9,9 @@ import metropolia_logo from "../../assets/learning/metropolia_s_orange.png"
 import docker_logo from "../../assets/learning/docker.png"
 
 const metropolia_studies_link = "https://studyinfo.fi/koski/opinnot/36f8158ebe9942a0bdc389d0c6db3657";
-const helsinki_studies_link = "https://studyinfo.fi/koski/opinnot/8439aad851a644589179e495dd665b5d";
+const helsinki_AI_studies_link = "https://opintopolku.fi/koski/opinnot/c238daa099f74348a2a1342e0f5b1d57";
+const helsinki_python_studies_link = "https://opintopolku.fi/koski/opinnot/8c219cbf0cda4ede9d72c546ed7229c3";
+const helsinki_docker_studies_link = "https://opintopolku.fi/koski/opinnot/91a83588ba3246208238f1f03bd8e472";
 
 const LearningAchievements = () => {
     useEffect(() => {
@@ -157,7 +159,7 @@ const LearningAchievements = () => {
           <div className="badge-3">
             <a
               className="own-badge"
-              href={helsinki_studies_link}
+              href={helsinki_AI_studies_link}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -180,7 +182,7 @@ const LearningAchievements = () => {
           <div className="badge-3">
             <a
               className="own-badge"
-              href= "https://opintopolku.fi/koski/opinnot/8c219cbf0cda4ede9d72c546ed7229c3"
+              href= {helsinki_python_studies_link}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -203,7 +205,7 @@ const LearningAchievements = () => {
           <div className="badge-3">
             <a
               className="own-badge"
-              href= "https://opintopolku.fi/koski/opinnot/91a83588ba3246208238f1f03bd8e472"
+              href= {helsinki_docker_studies_link}
               target="_blank"
               rel="noopener noreferrer"
             >
