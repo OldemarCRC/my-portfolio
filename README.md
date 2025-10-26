@@ -19,7 +19,7 @@ To see how I blend logistics knowledge with code, check out this featured case s
 ### **Web Application for Container Terminal Management**
 > A custom-built system designed to streamline inventory, vessel coordination, and internal logistics processes at a high-volume port facility.
 >
-> **[View Live Demo / Case Study Details Here](https://kontti-client.onrender.com/)**
+> **<a href="https://kontti-client.onrender.com/" target="_blank">View Live Demo / Case Study Details Here</a>**
 
 [**→ See Full Portfolio of Projects**](https://oldemarcrc.github.io/my-portfolio/)
 
@@ -42,8 +42,8 @@ Originally from Puerto Limón, Costa Rica, and currently based in Helsinki, Finl
 
 ## ✉️ Get in Touch
 
-* [LinkedIn Profile](https://www.linkedin.com/in/oldemar-chaves/)
-* [Email Address](mailto:oldemar.chaves@gmail.com)
+* <a href="https://www.linkedin.com/in/oldemar-chaves/" target="_blank">LinkedIn Profile</a>
+* <a href="mailto:oldemar.chaves@gmail.com" target="_blank">Email Address</a>
 
 I am eager to contribute my skills to new and challenging environments.
 
