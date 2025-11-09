@@ -54,23 +54,7 @@ const Portfolio = () => {
         <div className="portfolio-grid">
 
           <div className="portfolio-item">
-            <a href="https://oldemarcrc.github.io/Sea-container-Check-Digit/" target="_blank" rel="noopener noreferrer">
-              <div className="portfolio-image">
-                <img
-                  src={container_number}
-                  alt="Check Digit"
-                  loading="lazy"
-                />
-              </div>
-              <div className="portfolio-content">
-                <h3>Check Digit</h3>
-                <p>Verifying the check-digit of a sea container using React JS to ensure accurate container identification.</p>
-              </div>
-            </a>
-          </div>
-
-          <div className="portfolio-item">
-            <a href="https://kontti-client.onrender.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://konttihub.fi/" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-image">
                 <img
                   src={containers_terminal_image}
@@ -88,6 +72,24 @@ const Portfolio = () => {
               </div>
             </a>
           </div>
+
+          <div className="portfolio-item">
+            <a href="https://oldemarcrc.github.io/Sea-container-Check-Digit/" target="_blank" rel="noopener noreferrer">
+              <div className="portfolio-image">
+                <img
+                  src={container_number}
+                  alt="Check Digit"
+                  loading="lazy"
+                />
+              </div>
+              <div className="portfolio-content">
+                <h3>Check Digit</h3>
+                <p>Verifying the check-digit of a sea container using React JS to ensure accurate container identification.</p>
+              </div>
+            </a>
+          </div>
+
+
 
           <div className="portfolio-item">
             <a href="https://combinatorics-app-7e1w.onrender.com/" target="_blank" rel="noopener noreferrer">

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import "./about.css";
 import passportPhoto from "../../assets/profile_photo.jpg";
-import cvPdf from '../../assets/cv/Jose_Chaves_CV_eng.pdf';
-import anPdf from '../../assets/cv/Jose_Chaves_CV.pdf';
+import cvPdf from '../../assets/cv/Jose_Chaves_-_CV_(en).pdf';
+import anPdf from '../../assets/cv/Jose_Chaves_-_CV_(fi).pdf';
 
 function About() {
 
@@ -88,14 +88,14 @@ function About() {
               <div className="cv-links-modern">
                 <a
                   href={cvPdf}
-                  download="Jose_Oldemar_Chaves_CV_English.pdf"
+                  download="Jose_Chaves_-_CV_(en).pdf"
                   className="cv-btn cv-btn-primary"
                 >
                   📄 Download CV (English)
                 </a>
                 <a
                   href={anPdf}
-                  download="Jose_Oldemar_Chaves_Ansioluettelo.pdf"
+                  download="Jose_Chaves_-_CV_(fi).pdf"
                   className="cv-btn cv-btn-secondary"
                 >
                   📄 Lataa ansioluettelo (Suomi)
