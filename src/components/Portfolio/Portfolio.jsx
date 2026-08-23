@@ -4,7 +4,7 @@ import container_number from "../../assets/portfolio/container_number_picture.jp
 import containers_terminal_image from "../../assets/portfolio/containers_terminal_image.jpeg";
 import notebook_image from "../../assets/portfolio/notebook_image.webp";
 import payroll_image from "../../assets/portfolio/payroll_image.jpeg";
-import combinatorics_app_image from "../../assets/portfolio/combinatorics_app.png";
+
 
 const Portfolio = () => {
 
@@ -91,24 +91,7 @@ const Portfolio = () => {
 
 
 
-          <div className="portfolio-item">
-            <a href="https://combinatorics-app-7e1w.onrender.com/" target="_blank" rel="noopener noreferrer">
-              <div className="portfolio-image">
-                <img
-                  src={combinatorics_app_image}
-                  alt="Combinatorics App"
-                  loading="lazy"
-                />
-              </div>
-              <div className="portfolio-content">
-                <h3>Combinatorics Web App</h3>
-                <p>
-                  Lightweight web app built with Python and Flask, containerized with Docker and deployed on Render.
-                  Calculates permutations and combinations interactively.
-                </p>
-              </div>
-            </a>
-          </div>
+     
 
           <div className="portfolio-item">
             <a
