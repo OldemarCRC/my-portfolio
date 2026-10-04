@@ -83,8 +83,8 @@ const Portfolio = () => {
                 />
               </div>
               <div className="portfolio-content">
-                <h3>Check Digit</h3>
-                <p>Verifying the check-digit of a sea container using React JS to ensure accurate container identification.</p>
+                <h3>ISO 6346 Container Validator</h3>
+                <p>A web application built to validate, format, and verify sea container identification numbers according to the ISO 6346 standard. Features live input validation, ISO breakdown parsing (BIC owner code, equipment category, serial number), and bulk verification for logistics workflows.</p>
               </div>
             </a>
           </div>
