@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo } from 'react';
 import './portfolio.css';
-import container_number from "../../assets/portfolio/container_number_picture.jpeg";
+import container_number from "../../assets/portfolio/containercheck-light.webp";
 import containers_terminal_image from "../../assets/portfolio/containers_terminal_image.jpeg";
 import notebook_image from "../../assets/portfolio/notebook_image.webp";
 import payroll_image from "../../assets/portfolio/payroll_image.jpeg";
@@ -74,7 +74,7 @@ const Portfolio = () => {
           </div>
 
           <div className="portfolio-item">
-            <a href="https://oldemarcrc.github.io/Sea-container-Check-Digit/" target="_blank" rel="noopener noreferrer">
+            <a href="https://containercheck.app/" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-image">
                 <img
                   src={container_number}
